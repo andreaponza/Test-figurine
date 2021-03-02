@@ -12,7 +12,7 @@ pacs = [] #Pacchetti con figurine
 pac_index = 0 #Numero pacchetto aperto
 
 #Creiamo l'album da riempire
-for i in range(1, 749):
+for i in range(1, n_tot+1):
     album.append(0)
 
 #Prepariamo il file csv dove salvare i dati
